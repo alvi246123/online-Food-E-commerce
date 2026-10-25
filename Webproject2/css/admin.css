@@ -1,0 +1,93 @@
+h1{
+    display:inline-block;
+    transition : color 0.3s ease;
+}
+ 
+h1:hover
+{
+    transform: scale(1.2);
+    color: blue;
+ 
+}
+ 
+a:hover
+{
+    transform: scale(1.2);
+    color: black;
+ 
+}
+a
+{
+    display:inline-block;
+    transition : color 0.3s ease;
+}
+ 
+h3:hover
+{
+    transform: scale(1.2);
+    color: black; 
+ 
+}
+ 
+.admin-box
+{
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+ 
+}
+ 
+
+body {
+    background-color: mintcream;
+    font-family: Arial;
+}
+ 
+ 
+a {
+    color:black;
+    margin: 10px;
+}
+ 
+a:hover {
+    color: red;
+}
+ 
+ 
+.admin-box {
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+
+}
+ 
+ 
+h1, h3 {
+    color: darkblue;
+    text-align: center;
+}
+ 
+ 
+input {
+    padding: 5px;
+    margin: 5px;
+}
+ 
+input:focus {
+    background-color: lightyellow;
+}
+ 
+ 
+input[type="submit"] {
+    background-color: green;
+    color: white;
+}
+ 
+input[type="reset"] {
+    background-color: red;
+    color: white;
+}
+

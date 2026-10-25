@@ -1,0 +1,53 @@
+body {
+    background-color: #fdf2f4;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #8c4351;
+    text-align: right;
+    padding: 14px 40px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 14px;
+}
+
+h2 {
+    color: #632633;
+    text-align: center;
+}
+
+form {
+    background-color: #b85d6e;
+    width: 360px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #ffe6eb;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+    width: 100%;
+}
